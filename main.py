@@ -3,7 +3,7 @@ import requests
 import subprocess
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from os import environ
+from vars import API_ID, API_HASH, BOT_TOKEN
 
 # Replace with your API ID, API Hash, and Bot Token
 API_ID = "25255466"
