@@ -3,11 +3,12 @@ import requests
 import subprocess
 from pyrogram import Client, filters
 from pyrogram.types import Message
+from os import environ
 
 # Replace with your API ID, API Hash, and Bot Token
 API_ID = "25255466"
 API_HASH = "aa797f1169fb6bbee3de4869d6b76165"
-BOT_TOKEN = "7590656929:AAHuk3gBC34ubggKKMhyzs1VXFW5v_etuR8"
+BOT_TOKEN = ""
 
 # Telegram channel where files will be forwarded
 CHANNEL_USERNAME = "logsmrstudent"  # Replace with your channel username
